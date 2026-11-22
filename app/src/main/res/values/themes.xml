@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.LocaMobile" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#1E5AA8</item>
+        <item name="colorPrimaryVariant">#123E78</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Android 15 : garder le contenu sous la barre d'action (pas d'affichage bord à bord) -->
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+    </style>
+</resources>
